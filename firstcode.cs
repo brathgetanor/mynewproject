@@ -26,3 +26,11 @@
                 this.eyeIcon.Image = iconBitmap;
                 eyeIcon.Image = iconBitmap;
             }
+                //more here later
+     else
+            {
+                txtPassword.PasswordChar = '\0';
+                Bitmap iconBitmap = Properties.Resources.eye_stroke.ToBitmap();
+                this.eyeIcon.Image = iconBitmap;
+                eyeIcon.Image = iconBitmap;
+            }
